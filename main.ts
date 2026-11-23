@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// One fixed line, no inputs: the same roast every run, byte for byte.
 const ROAST =
   "My agent treats every task like a heist movie: three hours of planning, one nervous minute of doing it, and a getaway plan for a file it never stole.";
 
